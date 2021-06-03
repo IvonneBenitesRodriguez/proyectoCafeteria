@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="parteImportante">
+            <img src="img/cupcake.jpeg" class="cupcakelogo" alt="cupcake">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Historia</a>
+                    </li>
+                    <li>
+                        <a href="#">Postres</a>
+                    </li>
+                    <li><a href="#">Delivery</a></li>
+                    <li>
+                        <a href="#">Consejos</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="img/cupcake.jpeg" class="cupcakelogo" alt="cupcake">
+        </div>
+    </header>
+
+    <!--Carrousel-->
+    <div class="slideshow-container fade">
+        <!-- Images with Message Info-->
+        <div class="Containers">
+            <div class="MessageInfo">1/4</div>
+            <img src="img/cupcake1.jpeg" alt="cupcakedenieve">
+            <div class="Info">Cupcake de nata de almendra</div>
+        </div>
+        <div class="Containers">
+            <div class="MessageInfo">2/4</div>
+            <img src="img/cupcake2.jpeg" alt="cupcake de colores">
+            <div class="Info">Cupcake colores de arcoiris</div>
+        </div>
+        <div class="Containers">
+            <div class="MessageInfo">3/4</div>
+            <img src="img/cupcake3.jpeg" alt="cupcake de azucares">
+            <div class="Info">Cupcake de azucares</div>
+        </div>
+        <div class="Containers">
+            <div class="MessageInfo">4/4</div>
+            <img src="img/cupcake4.jpeg" alt="cupcake de fresa">
+            <div class="Info">Cupcake de fresa</div>
+        </div>
+        <!--Back and Forward Arrows-->
+        <a class="Back" onclick="plusSlides(-1)"><img src="img/redArrowBack.png"></a>
+        <a class="Forward" onclick="plusSlides(1)"><img src="img/redForwardArrow.png"></a>
+    </div>
+    <br>
+    <!--The circle Dots -->
+    <div class="boxDots">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dots" onclick="currentSlide(4)"></span>
+    </div>
+    <hr>
+    <div class="segundaParte">
+        <span class="Besties"><q><em>Check our Besties</em></q></span>
+    </div>
+    <div class="terceraParte">
+        <div class="trio">
+            <h2>Galleta de Chocolate</h2>
+            <img src="img/cake1.jpeg" alt="torta de chocolate">
+            <span class="cake1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum in architecto corrupti nulla iusto, atque et voluptatum modi, quam saepe facere sunt quia harum assumenda. Commodi culpa suscipit adipisci!</span>
+            <button onclick='myFunction()' type="button" id="demo">Delivery</button>
+        </div>
+        <div class="trio">
+            <h2>Torta de Cafe</h2>
+            <img src="img/cake2.jpeg" alt="torta de cafe">
+            <span class="cake1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum in architecto corrupti nulla iusto, atque et voluptatum modi, quam saepe facere sunt quia harum assumenda. Commodi culpa suscipit adipisci!</span>
+            <button onclick='myFunction1()' type="button" id="demo1">Delivery</button>
+        </div>
+        <div class="trio">
+            <h2>Mohemd</h2>
+            <img src="img/cake3.jpeg" alt="torta de Viena">
+            <span class="cake1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum in architecto corrupti nulla iusto, atque et voluptatum modi, quam saepe facere sunt quia harum assumenda. Commodi culpa suscipit adipisci!</span>
+            <button onclick="myFunction2()" type="button" id="demo2">Delivery</button>
+        </div>
+    </div>
+    <div class="cuartaParte">
+        <div class="recetaEspecial">
+            <img src="img/cupcakeYellow.jpeg" class="yellowCake" alt="cupcake shop">
+            <hr class="lineaVertical">
+        </div>
+        <div class="receta">
+            <h2>Receta Especial</h2>
+            <span class="textoRecetaEspecial"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Praesentium assumenda rerum dolorum pariatur temporibus vero expedita similique id accusamus animi, natus accusantium beatae quis voluptates? Distinctio dignissimos officia non voluptate?</p></span>
+            <button onclick="myFunction3()" type="button" id="receta">Conocenos</button>
+        </div>
+    </div>
+    <div class="quintaParte">
+        <div class="wrapper">
+            <input type="checkbox" id="click">
+            <label for="click" class="btn-1">Subscribe</label>
+            <div class="field">
+                <input type="text" placeholder="Email Address">
+                <label for="click" class="btn-2">Subscribe</label>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="sextaParte">-->
+    <h2 id="escogeTuPostre">Pick your vegan ingredients for your dessert</h2>
+    <p>The desserts are from pure fruit and vegan ingredients.</p>
+    <button id="toggleList">Hide list</button>
+    <div class="list">
+        <p class="description">Ingredients</p>
+        <input type="text" class="description">
+        <button class="description">Change list description</button>
+        <ul>
+            <li>Grapes</li>
+            <li>Blueberries</li>
+            <li>Lavender</li>
+            <li>Plums</li>
+            <li>Apple</li>
+        </ul>
+        <input type="text" class="addItemInput">
+        <button class="addItemButton">Add item</button>
+        <button class="removeItemButton">Remove last item</button>
+    </div>
+    <!-- </div>-->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
