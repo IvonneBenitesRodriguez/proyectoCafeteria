@@ -1,387 +1,379 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 20px;
-    padding: 25px;
-    font-size: 'Dancing Script', cursive;
+  font-size: "Dancing Script", cursive;
+  background-color: #fdffab;
 }
 
 .parteImportante {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .cupcakelogo {
-    width: 20%;
-    height: auto;
+  width: 20%;
+  height: auto;
 }
 
 nav {
-    margin-right: 101px;
+  margin-right: 101px;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    margin-left: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 100px;
 }
 
 li a {
-    list-style: none;
-    color: palevioletred;
-    text-decoration: none;
-    font-size: 22px;
-    margin-right: 70px;
+  list-style: none;
+  color: brown;
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 70px;
+  font-weight: 900;
 }
 
 .chupetin {
-    width: 20%;
-    height: auto;
+  width: 20%;
+  height: auto;
 }
-
 
 /* Slideshow container features */
 
 .slideshow-container {
-    max-width: 900px;
-    position: relative;
-    margin: auto;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
 }
-
 
 /* making the images invisible by default */
 
 .Containers {
-    display: none;
-    text-align: center;
-    margin-bottom: 1px;
-    margin-top: 75px;
+  display: none;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 75px;
 }
-
 
 /*Forward and Back Buttons */
 
 .Back,
 .Forward {
-    cursor: pointer;
-    top: 48%;
-    position: absolute;
-    width: auto;
-    color: deeppink;
-    padding: 17px;
-    margin-top: -23px;
-    font-size: 19px;
-    font-weight: bold;
-    transition: 0.1s ease;
-    border-radius: 0 5px 5px 0;
-    user-select: none;
+  cursor: pointer;
+  top: 48%;
+  position: absolute;
+  width: auto;
+  color: deeppink;
+  padding: 17px;
+  margin-top: -23px;
+  font-size: 19px;
+  font-weight: bold;
+  transition: 0.1s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
 }
-
 
 /* Place the button to the left*/
 
 .Back {
-    left: 0;
+  left: 0;
 }
-
 
 /* Place the button to the right*/
 
 .Forward {
-    right: 0;
-    border-radius: 4px 0 0 4px;
+  right: 0;
+  border-radius: 4px 0 0 4px;
 }
-
 
 /* Caption Info */
 
 .Info {
-    color: hotpink;
-    font-size: 22px;
-    padding: 8px 22px;
-    width: 100%;
-    margin-left: 10px;
+  color: hotpink;
+  font-size: 1.5rem;
+  padding: 8px 22px;
+  width: 100%;
+  margin-left: 10px;
+  font-weight: 900;
 }
-
 
 /* Work numbering */
 
 .MessageInfo {
-    color: hotpink;
-    font-size: 20px;
-    padding: 20px 20px;
-    position: absolute;
-    top: 0;
+  color: hotpink;
+  font-size: 20px;
+  padding: 20px 20px;
+  position: absolute;
+  top: 0;
 }
 
+.Besties {
+  font-weight: 900;
+}
 
 /* The circles and bullets indicators */
 
 .boxDots {
-    text-align: center;
+  text-align: center;
 }
 
 .dots {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: hotpink;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.2s ease;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: hotpink;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
 }
-
 
 /*fade Animation*/
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 3s;
-    animation-name: fade;
-    animation-duration: 3s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {
-    from {
-        opacity: .5
-    }
-    to {
-        opacity: 2
-    }
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
 }
 
 @keyframes fade {
-    from {
-        opacity: .5
-    }
-    to {
-        opacity: 2;
-    }
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
 }
-
 
 /* Here the line */
 
 hr {
-    margin-top: 23px;
-    border-color: hotpink;
-    margin-bottom: 30px;
+  margin-top: 23px;
+  border-color: hotpink;
+  margin-bottom: 30px;
 }
-
 
 /* La parte de la frase Besties con comillas y estilo italico */
 
 .segundaParte {
-    text-align: center;
+  text-align: center;
 }
 
 .Besties {
-    font-size: 20px;
-    color: hotpink;
-    margin-top: 20px;
+  font-size: 20px;
+  color: hotpink;
+  margin-top: 20px;
 }
-
 
 /* La tercera parte de las 3 fotografias con su titulo y su texto cada una */
 
 .terceraParte {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    margin: 40px;
-    text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 40px;
+  text-align: center;
 }
 
 .trio img {
-    width: 60%;
-    height: auto;
-    text-align: center;
+  width: 60%;
+  height: auto;
+  text-align: center;
 }
 
 .trio span {
-    display: block;
-    margin: 10px;
-    text-align: center;
+  display: block;
+  margin: 10px;
+  text-align: center;
 }
 
 .trio img:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .trio button {
-    cursor: pointer;
-    color: hotpink;
-    font-size: 20px;
-    margin-top: 20px;
-    background-color: brown;
-    border-color: hotpink;
+  cursor: pointer;
+  color: hotpink;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: brown;
+  border-color: hotpink;
 }
 
 .trio button:hover {
-    background-color: white;
+  background-color: white;
 }
-
 
 /* cuarta parte */
 
 .cuartaParte {
-    display: flex;
-    padding-top: 40px;
-    position: relative;
-    justify-content: space-between;
-    background-image: url(../img/delivery.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 2px 2px 2px;
-    margin-bottom: 40px;
+  display: flex;
+  padding-top: 40px;
+  position: relative;
+  justify-content: space-between;
+  background-image: url(../img/delivery.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 2px 2px;
+  margin-bottom: 40px;
 }
 
 .cuartaParte img {
-    width: 60%;
-    height: 60%;
-    margin-left: 150px;
-    margin-top: 30px;
+  width: 60%;
+  height: 60%;
+  margin-left: 150px;
+  margin-top: 30px;
 }
 
 .yellowCake:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .lineaVertical {
-    border-left: 6px solid hotpink;
-    height: 300px;
-    margin-left: 70px;
+  border-left: 6px solid hotpink;
+  height: 300px;
+  margin-left: 70px;
 }
 
 .recetaEspecial {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .receta {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 .textoRecetaEspecial p {
-    font-size: 25px;
-    font-weight: bold;
-    font-style: italic;
-    width: 65%;
-    color: whitesmoke;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  width: 65%;
+  color: whitesmoke;
 }
 
 .receta h2 {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 #receta {
-    cursor: pointer;
-    color: hotpink;
-    font-size: 20px;
-    margin-top: 20px;
-    background-color: brown;
-    border-color: hotpink;
-    margin-left: 90px;
+  cursor: pointer;
+  color: hotpink;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: brown;
+  border-color: hotpink;
+  margin-left: 90px;
 }
-
 
 /*quinta parte boton de suscripcion*/
 
 .quintaParte {
-    margin: 0;
-    padding: 30px;
-    box-sizing: border-box;
-    font-family: 'Dancing Script', cursive;
-    display: grid;
-    height: 160%;
-    place-items: center;
-    background: lightyellow;
-    margin-bottom: 40px;
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  display: grid;
+  height: 160%;
+  place-items: center;
+  background: lightyellow;
+  margin-bottom: 40px;
 }
 
 .wrapper {
-    height: 60px;
-    width: 400px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 30px;
+  height: 60px;
+  width: 400px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
 }
 
 .wrapper .btn-1 {
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    background: lightpink;
-    color: brown;
-    font-weight: 500;
-    font-size: 27px;
-    line-height: 60px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: lightpink;
+  color: brown;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-#click:checked~.btn-1 {
-    opacity: 0;
-    pointer-events: none;
-    height: 40px;
-    width: 100px;
+#click:checked ~ .btn-1 {
+  opacity: 0;
+  pointer-events: none;
+  height: 40px;
+  width: 100px;
 }
 
 .wrapper .field {
-    height: 100%;
-    position: relative;
-    width: 0%;
-    opacity: 0;
-    pointer-events: none;
-    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 100%;
+  position: relative;
+  width: 0%;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper #click {
-    display: none;
+  display: none;
 }
 
-#click:checked~.field {
-    opacity: 1;
-    pointer-events: auto;
-    width: 100%;
+#click:checked ~ .field {
+  opacity: 1;
+  pointer-events: auto;
+  width: 100%;
 }
 
 .wrapper .field input {
-    height: 100%;
-    width: 100%;
-    border: 2px solid hotpink;
-    border-radius: 5px;
-    padding: 0 130px 0 15px;
-    font-size: 20px;
-    outline: none;
+  height: 100%;
+  width: 100%;
+  border: 2px solid hotpink;
+  border-radius: 5px;
+  padding: 0 130px 0 15px;
+  font-size: 20px;
+  outline: none;
 }
 
 .wrapper .field .btn-2 {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 40px;
-    width: 100px;
-    background: hotpink;
-    color: #fff;
-    border-radius: 5px;
-    line-height: 40px;
-    cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 100px;
+  background: hotpink;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 40px;
+  cursor: pointer;
 }
-
 
 /* sextaParte Lista de Ingredientes 
 
@@ -394,94 +386,114 @@ hr {
 }*/
 
 h2 .escogeTuPostre {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.escogeTuPostre+p {
-    font: size 1.08em;
-    color: hotpink;
-    margin-top: .5em;
-    margin-bottom: 2.65em;
-    padding-bottom: 1.325em;
-    border-bottom: 1px dotted;
+.escogeTuPostre + p {
+  font: size 1.08em;
+  color: hotpink;
+  margin-top: 0.5em;
+  margin-bottom: 2.65em;
+  padding-bottom: 1.325em;
+  border-bottom: 1px dotted;
 }
 
 ul {
-    padding-left: 0;
-    list-style: none;
-    display: block;
-    margin-left: 10px;
-    margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
+  display: block;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 li {
-    padding: .45em .5em;
-    margin-bottom: .35em;
-    display: flex;
-    align-items: center;
+  padding: 0.45em 0.5em;
+  margin-bottom: 0.35em;
+  display: flex;
+  align-items: center;
 }
 
 input,
 button {
-    font-size: .85em;
-    padding: .65em 1em;
-    border-radius: .3em;
-    outline: 0;
+  font-size: 0.85em;
+  padding: 0.65em 1em;
+  border-radius: 0.3em;
+  outline: 0;
 }
 
 input {
-    border: 1px solid #hotpink;
-    margin-right: 1em;
+  border: 1px solid #hotpink;
+  margin-right: 1em;
 }
 
 div {
-    margin-top: 2.8em;
-    padding: 1.5em 0 .5em;
-    border-top: 1px dotted hotpink;
+  margin-top: 2.8em;
+  padding: 1.5em 0 0.5em;
+  border-top: 1px dotted hotpink;
 }
 
 p.description,
 p:nth-of-type(2) {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 /*Butttons*/
 
 button {
-    color: white;
-    background: hotpink;
-    border: 1px solid;
-    border-color: hotpink;
-    cursor: pointer;
+  color: white;
+  background: hotpink;
+  border: 1px solid;
+  border-color: hotpink;
+  cursor: pointer;
 }
 
-button+button {
-    margin-left: .5em;
+button + button {
+  margin-left: 0.5em;
 }
 
-p+button {
-    background: gold;
+p + button {
+  background: gold;
 }
 
-.list button+button {
-    background: plum;
+.list button + button {
+  background: plum;
 }
 
-.list li button+button {
-    background: fuchsia;
+.list li button + button {
+  background: fuchsia;
 }
 
 li button:first-child {
-    margin-left: auto;
-    background: floralwhite;
+  margin-left: auto;
+  background: floralwhite;
 }
 
 .list li button:last-child {
-    background: honeydew;
+  background: honeydew;
 }
 
 li button {
-    font-size: .75em;
-    padding: .5em .65em;
+  font-size: 0.75em;
+  padding: 0.5em 0.65em;
+}
+
+footer {
+  background-color: pink;
+  color: white;
+  padding-bottom: 4%;
+  font-size: 1rem;
+}
+.footer-part {
+  justify-content: space-around;
+}
+.footer-part h3 {
+  margin-bottom: 1%;
+  line-height: 45px;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+}
+.sextaParte {
+  margin: 2%;
 }
