@@ -1,3 +1,3 @@
 # proyectoCafeteria
 
-Link:  https://ivonnebenitesrodriguez.github.io/proyectoCafeteria/
+Link: https://ivonnebenitesrodriguez.github.io/proyectoCafeteria/
